@@ -675,3 +675,19 @@ java.nio.file.FileSystemException: C:\Users\HP\eclipse-workspace\Electricity Bil
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:123)
 !SUBENTRY 2 org.eclipse.core.resources 4 273 2026-07-05 23:11:54.418
 !MESSAGE Could not delete 'C:\Users\HP\eclipse-workspace\Electricity Bill'.
+
+!ENTRY org.eclipse.jdt.core 2 0 2026-07-05 23:38:16.120
+!MESSAGE Java Index broken - will be automatically deleted to repair: file:/C:/Users/HP/eclipse-workspace/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index
+!STACK 0
+java.io.UTFDataFormatException
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readStreamChars(DiskIndex.java:997)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readChunk(DiskIndex.java:769)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.readAllDocumentNames(DiskIndex.java:642)
+	at org.eclipse.jdt.internal.core.index.DiskIndex.mergeWith(DiskIndex.java:536)
+	at org.eclipse.jdt.internal.core.index.Index.save(Index.java:229)
+	at org.eclipse.jdt.internal.core.index.MetaIndex.save(MetaIndex.java:98)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveMetaIndex(IndexManager.java:1241)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.saveIndexes(IndexManager.java:1217)
+	at org.eclipse.jdt.internal.core.search.indexing.IndexManager.notifyIdle(IndexManager.java:836)
+	at org.eclipse.jdt.internal.core.search.processing.JobManager.indexerLoop(JobManager.java:508)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
