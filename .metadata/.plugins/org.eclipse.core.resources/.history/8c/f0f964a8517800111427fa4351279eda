@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class EmployeePayRoll {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Employee ID: ");
+		int empID = sc.nextInt();
+		sc.next();
+		
+		System.out.print("Enter Employee Name: ");
+		String name = sc.nextLine();
+		
+		System.out.print("Enter Employee Salary: ");
+		double salary = sc.nextDouble();
+		
+		double hra = salary*0.20;
+		double da = salary*0.10;
+		double grosssalary = salary+hra+da;
+	}
+
+}

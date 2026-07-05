@@ -1,0 +1,14 @@
+public class StringFunctions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Java Class";
+		//Length
+		System.out.println("Length: "+str.length());
+		//charAt
+		System.out.println("Character at Index (5): "+str.charAt(5));
+		//substring
+		System.out.println("Substring: "+str.substring(0));
+	}
+
+}

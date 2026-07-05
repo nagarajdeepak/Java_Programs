@@ -1,0 +1,13 @@
+
+public class StringBufferStringBuilder {
+
+	public static void main(String[] args) {
+		StringBuffer sbf = new StringBuffer("Java");
+		
+		System.out.println("--- StringBuffer---");
+		System.out.println("original string"+sbf);
+		
+
+	}
+
+}

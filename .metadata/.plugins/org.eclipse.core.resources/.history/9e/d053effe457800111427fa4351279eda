@@ -1,0 +1,25 @@
+public class StringFunctions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Java Class";
+		//Length
+		System.out.println("1.Length: "+str.length());
+		//charAt
+		System.out.println("2.Character at Index (5): "+str.charAt(5));
+		//substring
+		System.out.println("3.Substring: "+str.substring(0));
+		//toUppercase
+		System.out.println("4.Uppercase: "+str.toUpperCase());
+		//toLowercase
+		System.out.println("5.Lowercase: "+str.toLowerCase());
+		//concat
+		System.out.println("6.contact: "+str.concat(" Language"));
+		//equals
+		String s1 = "Java";
+		String s2 = "Class";
+		System.out.println("7.Equals: "+s1.equals(s2));
+		
+	}
+
+}

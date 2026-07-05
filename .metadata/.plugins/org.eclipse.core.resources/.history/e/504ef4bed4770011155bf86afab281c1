@@ -1,0 +1,37 @@
+
+public class StringBufferStringBuilder {
+
+	public static void main(String[] args) {
+		StringBuffer sbf = new StringBuffer("Java");
+		
+		System.out.println("--- StringBuffer---");
+		System.out.println("original string: "+sbf);
+		
+		str.length();
+		System.out.println("Length: "+str.length);
+		
+		//Append
+		sbf.append(" Programming");
+		System.out.println("After Append(): "+sbf);
+		//Insert
+		sbf.insert(5,"Language ");
+		System.out.println("After Insert(): "+sbf);
+		//Replace 
+		sbf.replace(4, 14, " coding ");
+		System.out.println("After Replace(): "+sbf);
+		//Delete
+		sbf.delete(5, 12);
+		System.out.println("After Delet(): "+sbf);
+		sbf.reverse();
+		System.out.println("After Reverse(): "+sbf);
+		
+		
+		StringBuilder sbd = new StringBuilder("Welcome ");
+		System.out.println("\n---StringBuilder---");
+		
+		sbd.append("to java");
+		System.out.println("After Append(): "+sbd);
+
+	}
+
+}

@@ -1,0 +1,39 @@
+import java.util.Scanner;
+public class EmployeePayRoll {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Enter Employee ID: ");
+		int empId = sc.nextInt();
+		sc.nextLine();
+		
+		System.out.print("Enter Employee Name: ");
+		String empName = sc.nextLine();
+		
+		System.out.print("Enter Employee Salary: ");
+		double salary = sc.nextDouble();
+		
+		double hra = salary*0.20;
+		double da = salary*0.10;
+		double grosssalary = salary+hra+da;
+		
+		double tax = grosssalary*0.05;
+		
+		double netsalary = grosssalary - tax;
+		
+		System.out.println("\n---Employee PayRoll---");
+		System.out.println("Empolyee ID: "+empId);
+		System.out.println("Employee Name: "+empName);
+		System.out.println("Employee Salary: "+salary);
+		System.out.println("HRA (20%): "+hra);
+		System.out.println("DA (10%): "+da);
+		System.out.println("Gross Salary: "+grosssalary);
+		System.out.println("Tax (5%): "+tax);
+		System.out.println("Net Salary: "+netsalary);
+		
+		sc.close();
+	}
+
+}

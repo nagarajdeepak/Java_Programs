@@ -1,0 +1,10 @@
+public class StringFunctions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String str = "Java Class";
+		//Length
+		System.out.println("Length: "+str.length());
+	}
+
+}
