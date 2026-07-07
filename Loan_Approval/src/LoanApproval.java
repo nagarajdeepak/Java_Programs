@@ -9,7 +9,7 @@ public class LoanApproval {
 		System.out.println("Enter Salary Per/Month:");
 		double salary = sc.nextDouble();
 		
-		System.out.println("Are You Employeed:");
+		System.out.println("Are You Employeed (true/false):");
 		boolean employeed = sc.nextBoolean();
 		
 		System.out.println("Enter you CIBIL score:");
