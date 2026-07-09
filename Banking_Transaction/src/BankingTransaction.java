@@ -46,5 +46,4 @@ public class BankingTransaction {
 		sc.close();
 
 	}
-
 }

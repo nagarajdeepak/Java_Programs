@@ -13,7 +13,7 @@ public class Booking_Resort {
 		System.out.println("Enter Customer Name: ");
 		customerName = sc.nextLine();
 		
-		System.out.println("\n === Room Types ====");
+		System.out.println("\n=== Room Types ====");
 		System.out.println("1.Deluxe Room - Rs.1999/Day");
 		System.out.println("2.Super Deluxe Room - Rs.3499/Day");
 		System.out.println("3.Suti Room - Rs.4999/Day");
@@ -60,7 +60,7 @@ public class Booking_Resort {
 		}
 		totalBill = roomcharges + foodcharges;
 		
-		System.out.println("\n ==== Booking Details ====");
+		System.out.println("\n==== Booking Details ====");
 		System.out.println("Customer Name: "+customerName);
 		System.out.println("Number Days: "+days);
 		System.out.println("Room Charges: Rs."+roomcharges);
@@ -69,5 +69,4 @@ public class Booking_Resort {
 		
 		sc.close();
 	}
-
 }
