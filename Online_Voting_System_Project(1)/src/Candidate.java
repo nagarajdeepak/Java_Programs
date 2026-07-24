@@ -1,4 +1,3 @@
-
 public class Candidate {
 	
 	private String name;

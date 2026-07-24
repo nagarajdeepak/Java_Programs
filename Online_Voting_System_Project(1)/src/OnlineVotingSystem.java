@@ -1,4 +1,7 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
 public class OnlineVotingSystem {
 	static Scanner sc =new Scanner(System.in);
 	
